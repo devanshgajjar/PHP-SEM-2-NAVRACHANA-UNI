@@ -1,0 +1,28 @@
+<?php
+session_start();
+?>
+
+<html>
+<head>
+<title>
+</title>
+</head>
+<body>
+<?php
+if($_SERVER['REQUEST METHOD'] == "POST")
+{
+	$name=$_post['fname'];
+	$msg = $_post['msg'];
+
+	$_session["name"]=$name;
+	$_session["msg"]=$msg;
+		echo"<br> Done setting session variables <br>";
+}
+?>
+
+<?php
+print_r($_SESSION);
+?>
+
+</body>
+</html>

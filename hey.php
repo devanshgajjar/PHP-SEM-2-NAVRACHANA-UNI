@@ -1,0 +1,3 @@
+<?php
+echo"THANK YOU FOR YOUR COOPERATION";
+?>

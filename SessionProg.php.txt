@@ -1,0 +1,17 @@
+<?php
+session_start();
+?>
+
+<html>
+<head>
+<title>
+</title>
+</head>
+<body>
+	<form action = "session_handle.php" method="POST">
+<br> Enter your name: <input type="text" name="fname"/>
+<br> Enter message: <input type="text" name="msg"/>
+<br> <input type="Submit" name="Submit"/>
+</form>
+</body>
+</html>
